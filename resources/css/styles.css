@@ -1,3 +1,5 @@
+/* Header Style */
+
 .header {
   font-family: Verdana;
   font-size: 14px;
@@ -7,6 +9,11 @@
   justify-content: space-between;
   border-bottom: 2px solid mediumaquamarine;
   padding: 10px;
+  position: fixed;
+  background-color: white;
+  z-index: 10;
+  padding: 20px;
+  margin-top: 0px;
 }
 
 .logo {
@@ -33,9 +40,64 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin: 5px 50px;
 }
 
 .list a {
     align-items: center;
     margin: 5px 15px;
+}
+
+/* Main Styles */
+
+.content {
+    display: flex;
+    width: 100%;
+    margin: 30px 0px;
+}
+
+.column {
+    display: flex;
+    border: 1px solid mediumaquamarine;
+    justify-content: space-between;
+}
+
+.column.large {
+  width: 630px;
+  display: flex;
+  flex-flow: column;
+}
+
+.story {
+    font-family: Georgia;
+    font-size: 17px;
+    color: black; 
+}
+
+.headline.main-story {
+    background-image: url("../images/img-story-main.png");
+    color: white;
+}
+
+h2.headline {
+    color: black;
+}
+
+.column.medium {
+  width: 300px;
+  display: flex;
+}
+
+.column.small {
+  width: 240px;
+  display: flex;
+}
+
+.divided-column {
+    display: flex;
+}
+
+.sub-column {
+    display: flex;
+    flex-flow: column;
 }
