@@ -1,0 +1,41 @@
+.header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 2px solid mediumaquamarine;
+  padding: 10px;
+}
+
+.logo {
+    color: mediumaquamarine;
+    display: flex;
+    width: 200px;
+    justify-content: flex-start
+}
+
+.logo span {
+    align-items: center;
+    margin: 10px;
+}
+
+.logo p {
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+}
+
+.list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.list a {
+    align-items: center;
+    margin: 5px 15px;
+}
